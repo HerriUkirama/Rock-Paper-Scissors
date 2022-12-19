@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+}
+
+.score > h4{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.status{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    cursor: pointer;
+}
+
+.rps-button{
+    display: flex;
+    justify-content: center;
+}
+
+.rps-button > div{
+    background-color: yellow;
+    border: 1px solid #ffffff;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 20%;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
